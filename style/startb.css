@@ -1,0 +1,49 @@
+:root{
+    --bcolor:rgb(0, 2, 53);
+    --color1:rgb(206, 172, 4);
+    --color2:rgb(255, 255, 255);
+    --color3:rgb(0, 8, 255);
+    --b:rgb(0,0,0)
+}
+body{
+    background-color:var(--bcolor);
+}
+.Startbpostion{
+    position: fixed ;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.Startb{
+    border: 4px var(--color3) solid;
+    box-shadow: 0 0  8vh var(--color3) ;
+    background-color: var(--bcolor);
+    width: 60vw;
+}
+.Startb div{
+    height: 25vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:last baseline	;
+}
+.Startb div text{
+    color: var(--color1);
+    font-size: 7vw;
+}
+.Startb div button{
+    background-color: var(--bcolor);
+    color: var(--color1);
+    box-shadow: 0 0  2vh var(--color3) ;
+    border:3px var(--color3) solid;
+    flex: 1;
+   
+    height: 10vh;
+    font-size: 5vh;
+  
+}

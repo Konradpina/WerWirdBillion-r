@@ -1,0 +1,35 @@
+body{
+    overflow: hidden;
+}
+.Bword{
+   color: var(--color1);
+    position: absolute;
+    top: -4vh;
+    animation: fall forwards 30s linear;
+    z-index: -1;
+}
+@keyframes fall {
+    0%{
+        top:-4vh
+    }
+    100%{
+       top:104vh
+    }
+    
+}
+
+.Bbword{
+    color: var(--color1);
+     position: absolute;
+     left: -4vh;
+     animation: movee forwards 30s linear;
+     z-index: -1;
+ }
+ @keyframes movee {
+     0%{
+         left:-4vw
+     }
+     100%{
+        left:104vw
+     }
+ }

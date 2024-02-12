@@ -1,0 +1,40 @@
+.infob{
+    z-index: -1;
+    position: absolute;
+    top:15vh;
+    bottom: 15vh;
+    left: 10vw;
+    right: 10vw;
+    background-color: rgb(0, 6, 32);
+    color: var(--color1);
+    font-size: 5vh;
+    border: 3px var(--color1) solid;
+    border-top-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+}
+.infob button{
+    color: var(--color1);
+    font-size: 5vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--bcolor);
+    border: 0;
+    border-top: 3px var(--color1) solid;
+    border-bottom-right-radius: 20%;
+}
+.head{
+    
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px var(--color1) solid;
+}
+.info{
+    padding-top: 1vh;
+    font-size: 3vh;
+    text-align: center;
+
+}

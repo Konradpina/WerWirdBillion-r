@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Wer Wird Billionär</title>
+        <link rel="stylesheet" href="./style/startb.css">
+        <link rel="stylesheet" href="./style/qeustionb.css">
+        <link rel="stylesheet" href="./style/infob.css">
+        <style></style>
+        <link rel="stylesheet" href="./style/Bword.css">
+    </head>
+    <body>
+        <div class="Startbpostion" id="stratp"  >
+            <div class="Startb" id="Startb">
+                <div>
+                    <text>Wer Wird Billionär?</text>
+                </div>
+                <div>
+                    <button onclick="startquiz()">Start</button>
+                    <button>Credits</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="Questionb" >
+            <div id="Questionb" hidden>
+                <div class="Question q1" id="Question">Wer Wird Milonär</div>
+                <div class="answerb">
+                    <div class="answer a1" onclick="apress(0)" >A: <div class="aanswer" id="a1">1 </div></div>
+                    <div class="answer a2" onclick="apress(1)" >B: <div class="aanswer" id="a2">2</div></div>
+                    <div class="answer a3" onclick="apress(2)" >C: <div class="aanswer" id="a3">3</div></div>
+                    <div class="answer a4" onclick="apress(3)" >D: <div class="aanswer" id="a4">4</div></div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="infob" id="infob" hidden>
+            <div id="infohead" class="head">Achtung</div>
+            <div id="info" class="info"> bla bla bla</div>
+            <button onclick="nextquestion()">Nächste Frage</button>
+        </div>
+        <div class="loseb" id="loseb"></div>
+
+        
+        
+        <audio src="./music/failure-4-with-gong-69906.mp3" id="wrrong"></audio>
+        <audio src="./music/tada-military-3-183975.mp3" id="correct"></audio>
+        <audio src="./music/suspense_strings_001wav-14805.mp3" id="suspense"></audio>
+        <audio src="./music/biodynamic-impact-braam-tonal-dark-184276.mp3" id="QIntro"></audio>
+        <audio src="./music/pad-high-tension-and-suspense-background-filler-162365.mp3" id="Questionmusic" loop="true"></audio>
+        <audio src="./music/the-blacksmith-15132.mp3" id="infomusic" loop volume="0.4"></audio>
+        <!-- Music by <a href="https://pixabay.com/de/users/comastudio-26079283/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=102685">ComaStudio</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=102685">Pixabay</a> -->
+    </body>
+    <script src="./script/bilo.js"></script>
+    <script src="./script/background.js"></script>
+</html> 

@@ -1,0 +1,134 @@
+
+.Questionb{
+    position: fixed;
+    top:50vh;
+    left: 0;
+    right: 0;
+    bottom: 0vh;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.Question{
+    min-width: 90vw;
+    min-height: 10vh;
+    /* max-height: 15vh; */
+    background-color: var(--b);
+    padding: 1vh 5vh 1vh 5vh;
+    border-radius: 10%;
+    color: var(--color1);
+    font-size: 5vh;
+    text-align: center;
+
+}
+.answerb{
+
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.answer{
+    border: var(--color1) solid 3px;
+    border-radius: 14%;
+    height: 80%;
+    margin: 1vh;
+    color: var(--color1);
+    font-size: 4vh;
+    justify-content: center;
+    background-color: var(--b);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: all 0.2s;
+}
+.aanswer{
+    color: rgb(255, 255, 255);
+}
+.answer:active{
+    background-color: aliceblue;
+}
+.a1{
+    animation: a1 1s forwards 4s;
+    transform: translateX(-50vw);
+}
+@keyframes a1 {
+    0%{
+        transform: translateX(-50vw);
+    }   
+    100%{
+        transform: translateX(0vh);
+    } 
+}
+.a2{
+    animation: a2 1s forwards 5s;
+    transform: translateX(50vw);
+}
+@keyframes a2 {
+    0%{
+        transform: translateX(50vw);
+    }   
+    100%{
+        transform: translateX(0vh);
+    } 
+}
+
+.a3{
+    animation: a3 1s forwards 6s;
+    transform: translateX(-50vw);
+  
+}
+@keyframes a3 {
+    0%{
+        transform: translateX(-50vw);
+    }   
+    100%{
+        transform: translateX(0vh);
+    } 
+}
+
+.a4{
+    animation: a4 1s forwards 7s;
+    transform: translateX(50vw);
+}
+@keyframes a4 {
+    0%{
+        transform: translateX(50vw);
+    }   
+    100%{
+        transform: translateX(0vh);
+    } 
+}
+.q1{
+    animation: q1 1s forwards 0s;
+    transform: translateX(100vw);
+}
+@keyframes q1 {
+    0%{
+        transform: translateX(100vw);
+    }   
+    100%{
+        transform: translateX(0vh);
+    } 
+}
+
+.canswer{
+    background-color: rgb(81, 255, 0);
+    /* animation: canswer 0.5s; */
+}
+@keyframes canswer {
+    
+    70%{
+        background-color: green;
+    }
+}
+.wanswer{
+    animation: wanswer 1s forwards;
+}
+@keyframes wanswer {
+    0%{
+        
+    }
+}
