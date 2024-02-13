@@ -52,11 +52,11 @@
 }
 .a1{
     animation: a1 1s forwards 4s;
-    transform: translateX(-50vw);
+    transform: translateX(-70vw);
 }
 @keyframes a1 {
     0%{
-        transform: translateX(-50vw);
+        transform: translateX(-70vw);
     }   
     100%{
         transform: translateX(0vh);
@@ -64,11 +64,11 @@
 }
 .a2{
     animation: a2 1s forwards 5s;
-    transform: translateX(50vw);
+    transform: translateX(70vw);
 }
 @keyframes a2 {
     0%{
-        transform: translateX(50vw);
+        transform: translateX(70vw);
     }   
     100%{
         transform: translateX(0vh);
@@ -77,12 +77,12 @@
 
 .a3{
     animation: a3 1s forwards 6s;
-    transform: translateX(-50vw);
+    transform: translateX(-70vw);
   
 }
 @keyframes a3 {
     0%{
-        transform: translateX(-50vw);
+        transform: translateX(-70vw);
     }   
     100%{
         transform: translateX(0vh);
@@ -91,11 +91,11 @@
 
 .a4{
     animation: a4 1s forwards 7s;
-    transform: translateX(50vw);
+    transform: translateX(70vw);
 }
 @keyframes a4 {
     0%{
-        transform: translateX(50vw);
+        transform: translateX(70vw);
     }   
     100%{
         transform: translateX(0vh);

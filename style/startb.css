@@ -7,6 +7,33 @@
 }
 body{
     background-color:var(--bcolor);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.l1{
+    position: absolute;
+    top: -4vh;
+    right: -20vw;
+    color: var(--bcolor);
+}
+.l2{
+    position: absolute;
+    bottom: -20vh;
+    left: -20vw;
+    color: var(--bcolor);
+}
+.l3{
+    position: absolute;
+    bottom: -4vh;
+    right: -20vw;
+    color: var(--bcolor);
+}
+.l4{
+    position: absolute;
+    top: -4vh;
+    left: -20vw;
+    color: var(--bcolor);
 }
 .Startbpostion{
     position: fixed ;
